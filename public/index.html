@@ -1,3 +1,11 @@
-<script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
-<script defer="defer" src="/static/js/main.b81400d3.js"></script>
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
