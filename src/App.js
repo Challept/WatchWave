@@ -1,6 +1,5 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Updated import
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import RecentWatched from './pages/RecentWatched';
@@ -12,6 +11,7 @@ import Container from '@mui/material/Container';
 
 function App() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     return (
         <Router>
 <<<<<<< HEAD
@@ -21,10 +21,17 @@ function App() {
             <div className="App">
                 <NavBar />
 >>>>>>> 74f5f705 (Update frontend build and fix deployment)
+=======
+    return (
+        <Router>
+            <div className="App">
+                <NavBar />
+>>>>>>> 2fd8a2eb (Stash changes before rebase)
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/recent-watched" element={<RecentWatched />} />
                 </Routes>
+<<<<<<< HEAD
 <<<<<<< HEAD
             </Container>
 =======
@@ -45,6 +52,11 @@ function App() {
     </Router>
   );
 >>>>>>> ffdc3788 (Update frontend build and fix deployment)
+=======
+            </div>
+        </Router>
+    );
+>>>>>>> 2fd8a2eb (Stash changes before rebase)
 }
 
 export default App;

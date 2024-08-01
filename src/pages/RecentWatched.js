@@ -1,7 +1,5 @@
-// RecentWatched.js
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import React from 'react';
 
 function RecentWatched() {
     return (
@@ -12,10 +10,11 @@ function RecentWatched() {
             <Typography variant="body1">
                 Here are your recently watched movies and shows.
             </Typography>
-            <h1>Recent Watched</h1>
+            <h1>Recent Watched Page</h1>
+            <h2>Recent Watched</h2>
+            <p>Track your recently watched movies and series here.</p>
         </div>
     );
 }
-const RecentWatched = () => <h1>Recent Watched Page</h1>;
 
 export default RecentWatched;
