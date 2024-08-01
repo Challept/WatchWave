@@ -1,14 +1,12 @@
+// index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-=======
+import ReactDOM from 'react-dom/client'; // Updated import
 import './index.css';
->>>>>>> 74f5f705 (Update frontend build and fix deployment)
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
-<<<<<<< HEAD
 const theme = createTheme({
   palette: {
     primary: {
@@ -20,18 +18,18 @@ const theme = createTheme({
   },
 });
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
-=======
 ReactDOM.render(
   <React.StrictMode>
     <App />
->>>>>>> 74f5f705 (Update frontend build and fix deployment)
   </React.StrictMode>,
   document.getElementById('root')
+  </React.StrictMode>
 );
 
 reportWebVitals();

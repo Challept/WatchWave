@@ -16,5 +16,6 @@ function RecentWatched() {
         </div>
     );
 }
+const RecentWatched = () => <h1>Recent Watched Page</h1>;
 
 export default RecentWatched;
