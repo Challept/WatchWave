@@ -1,11 +1,11 @@
 import React from 'react';
 
-const RecentWatched = () => {
-    return (
-        <div>
-            <h1>Recent Watched</h1>
-        </div>
-    );
+function RecentWatched() {
+  return (
+    <div>
+      <h1>Recently Watched</h1>
+    </div>
+  );
 }
 
 export default RecentWatched;
