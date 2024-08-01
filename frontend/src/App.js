@@ -6,17 +6,17 @@ import RecentWatched from './pages/RecentWatched';
 import './App.css';
 
 function App() {
-    return (
-        <Router>
-            <div className="App">
-                <NavBar />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/recent-watched" element={<RecentWatched />} />
-                </Routes>
-            </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <NavBar />
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/recent-watched" element={<RecentWatched />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
